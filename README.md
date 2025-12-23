@@ -1,5 +1,5 @@
 # 💫 About Me:
-🔭 I’m currently working on scalable full-stack projects with a strong focus on backend development<br>👯 I’m looking to collaborate on real-world JavaScript, Node.js, and API-based applications<br>🤝 I’m looking for help with system design concepts and production-level architecture<br>🌱 I’m currently learning advanced backend pFun fact: I enjoy turning complex problems into clean, maintainable code.tterns, database optimization, and modern frontend tools.<br>💬 Ask me about JavaScript, Node.js, Express, Prisma, REST APIs, and project structuring.<br>⚡ Fun fact
+🔭 I’m currently working on scalable full-stack projects with a strong focus on backend development<br>👯 I’m looking to collaborate on real-world JavaScript, Node.js, and API-based applications<br>🤝 I’m looking for help with system design concepts and production-level architecture<br>🌱 I’m currently learning advanced backend and enjoy turning complex problems into clean, maintainable code, database optimization, and modern frontend tools.<br>💬 Ask me about JavaScript, Node.js, Express, Prisma, REST APIs, and project structuring.<br>⚡ Fun fact
 
 
 ## 🌐 Socials:
