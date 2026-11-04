@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 132" width="1200" height="132" role="img" aria-labelledby="ss-footer-title ss-footer-desc">
+  <title id="ss-footer-title">Sushmita Dasari — Build with clarity. Ship with intent.</title>
+  <desc id="ss-footer-desc">A minimal burgundy signature footer with a fine glowing rule and a small animated signal point.</desc>
+  <defs>
+    <linearGradient id="ssf-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="1" stop-color="#190B12"/>
+    </linearGradient>
+    <linearGradient id="ssf-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset=".24" stop-color="#C77B9B"/>
+      <stop offset=".72" stop-color="#E5B5C7"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="ssf-glow" x="-100%" y="-300%" width="300%" height="700%">
+      <feGaussianBlur stdDeviation="3" result="ssf-blur"/>
+      <feMerge><feMergeNode in="ssf-blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <style>
+    .ssf-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ssf-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ssf-motion { pointer-events: none; }
+    @media (prefers-reduced-motion: reduce) { .ssf-motion { display: none; } }
+  </style>
+  <rect width="1200" height="132" rx="18" fill="url(#ssf-bg)"/>
+  <path d="M74 22 H1126" stroke="#C77B9B" stroke-opacity=".14"/>
+  <path d="M74 22 H1126" stroke="url(#ssf-rule)" stroke-width="1.2"/>
+  <g text-anchor="middle">
+    <text class="ssf-serif" x="600" y="75" font-size="30" font-style="italic" fill="#F8F0F3">Build with clarity. Ship with intent.</text>
+    <text class="ssf-mono" x="600" y="105" font-size="10" letter-spacing="3" fill="#B6A3AC">SRI SUSHMITA DASARI  ·  AI / ML  ·  FULL-STACK  ·  CREATIVE TECHNOLOGY</text>
+  </g>
+  <g class="ssf-motion">
+    <circle r="3" cy="22" fill="#F8F0F3" filter="url(#ssf-glow)">
+      <animate attributeName="cx" values="74;1126;74" dur="13s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="7" cy="22" fill="none" stroke="#E5B5C7" stroke-opacity=".42">
+      <animate attributeName="cx" values="74;1126;74" dur="13s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+</svg>

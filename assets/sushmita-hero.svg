@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" role="img" aria-labelledby="ss-hero-title ss-hero-desc">
+  <title id="ss-hero-title">Sri Sushmita Dasari — AI/ML Engineer, Full-Stack Developer, Creative Technologist</title>
+  <desc id="ss-hero-desc">A cinematic burgundy identity banner with a fine technical grid, orbital geometry, an animated signal path and a softly glowing underline. Engineering intelligence. Designing experiences.</desc>
+  <defs>
+    <linearGradient id="ss-hero-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset=".58" stop-color="#190B12"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+    <radialGradient id="ss-hero-halo" cx="78%" cy="48%" r="62%">
+      <stop offset="0" stop-color="#701A3D" stop-opacity=".62"/>
+      <stop offset=".58" stop-color="#451126" stop-opacity=".18"/>
+      <stop offset="1" stop-color="#10070C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ss-hero-sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C77B9B" stop-opacity="0"/>
+      <stop offset=".46" stop-color="#E5B5C7" stop-opacity=".22"/>
+      <stop offset=".72" stop-color="#F8F0F3" stop-opacity=".68"/>
+      <stop offset="1" stop-color="#C77B9B" stop-opacity="0"/>
+      <animate attributeName="x1" values="-1;0;1" dur="12s" repeatCount="indefinite"/>
+      <animate attributeName="x2" values="0;1;2" dur="12s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="ss-hero-rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#C77B9B"/>
+      <stop offset=".66" stop-color="#E5B5C7"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="ss-hero-orbit" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E5B5C7" stop-opacity=".75"/>
+      <stop offset="1" stop-color="#701A3D" stop-opacity=".12"/>
+    </linearGradient>
+    <pattern id="ss-hero-grid" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M36 0H0V36" fill="none" stroke="#C77B9B" stroke-opacity=".09" stroke-width="1"/>
+      <circle cx="0" cy="0" r="1" fill="#E5B5C7" fill-opacity=".18"/>
+    </pattern>
+    <radialGradient id="ss-hero-grid-fade" cx="70%" cy="48%" r="72%">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="ss-hero-grid-mask">
+      <rect width="1200" height="390" fill="url(#ss-hero-grid-fade)"/>
+    </mask>
+    <filter id="ss-hero-glow" x="-40%" y="-150%" width="180%" height="400%">
+      <feGaussianBlur stdDeviation="4" result="ss-blur"/>
+      <feMerge><feMergeNode in="ss-blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="ss-hero-soft" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+    <clipPath id="ss-hero-clip"><rect width="1200" height="390" rx="22"/></clipPath>
+  </defs>
+  <style>
+    .ss-hero-serif { font-family: Georgia, "Iowan Old Style", "Palatino Linotype", "Times New Roman", serif; }
+    .ss-hero-sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .ss-hero-mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; }
+    .ss-hero-motion { pointer-events: none; }
+    @media (prefers-reduced-motion: reduce) {
+      .ss-hero-motion { display: none; }
+    }
+  </style>
+
+  <g clip-path="url(#ss-hero-clip)">
+    <rect width="1200" height="390" fill="url(#ss-hero-bg)"/>
+    <rect width="1200" height="390" fill="url(#ss-hero-halo)"/>
+    <rect width="1200" height="390" fill="url(#ss-hero-grid)" mask="url(#ss-hero-grid-mask)"/>
+
+    <!-- A restrained, static orbit remains visible if motion is unavailable. -->
+    <g transform="translate(974 188)" fill="none" stroke="url(#ss-hero-orbit)">
+      <circle r="136" stroke-opacity=".56" stroke-width="1"/>
+      <ellipse rx="174" ry="74" transform="rotate(-32)" stroke-opacity=".45" stroke-dasharray="2 8"/>
+      <circle r="98" stroke="#C77B9B" stroke-opacity=".18" stroke-dasharray="1 7"/>
+      <circle cx="136" cy="0" r="4" fill="#E5B5C7" stroke="none"/>
+      <circle cx="-98" cy="0" r="2.5" fill="#C77B9B" stroke="none"/>
+    </g>
+
+    <!-- Motion layer: decorative only; the underlying geometry is the static fallback. -->
+    <g class="ss-hero-motion">
+      <ellipse cx="968" cy="186" rx="254" ry="186" fill="#701A3D" opacity=".13" filter="url(#ss-hero-soft)">
+        <animate attributeName="opacity" values=".08;.19;.08" dur="9s" repeatCount="indefinite"/>
+      </ellipse>
+      <g transform="translate(974 188)" fill="none" stroke="#E5B5C7" stroke-opacity=".34">
+        <circle r="136" stroke-dasharray="1 9">
+          <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="90s" repeatCount="indefinite"/>
+        </circle>
+        <ellipse rx="174" ry="74" transform="rotate(-32)" stroke-opacity=".22">
+          <animateTransform attributeName="transform" type="rotate" from="-32" to="328" dur="72s" repeatCount="indefinite" additive="sum"/>
+        </ellipse>
+      </g>
+      <path d="M72 366 C210 366 262 352 354 352 S505 378 612 354 S760 336 842 346 S1012 370 1128 350" fill="none" stroke="#C77B9B" stroke-width="1.3" stroke-linecap="round" stroke-dasharray="7 10" opacity=".72">
+        <animate attributeName="stroke-dashoffset" values="0;-136" dur="10s" repeatCount="indefinite"/>
+      </path>
+      <circle r="3.5" fill="#F8F0F3" filter="url(#ss-hero-glow)">
+        <animateMotion dur="10s" repeatCount="indefinite" path="M72 366 C210 366 262 352 354 352 S505 378 612 354 S760 336 842 346 S1012 370 1128 350"/>
+      </circle>
+      <g fill="#E5B5C7">
+        <circle cx="766" cy="78" r="1.7"><animate attributeName="opacity" values=".15;.9;.15" dur="4.8s" repeatCount="indefinite"/><animate attributeName="cy" values="78;58;78" dur="4.8s" repeatCount="indefinite"/></circle>
+        <circle cx="1112" cy="328" r="1.4"><animate attributeName="opacity" values=".1;.8;.1" dur="5.4s" begin="1s" repeatCount="indefinite"/><animate attributeName="cy" values="328;306;328" dur="5.4s" begin="1s" repeatCount="indefinite"/></circle>
+        <circle cx="886" cy="50" r="1.2"><animate attributeName="opacity" values=".1;.75;.1" dur="6s" begin="2s" repeatCount="indefinite"/></circle>
+      </g>
+    </g>
+
+    <g>
+      <text class="ss-hero-mono" x="78" y="70" font-size="12" letter-spacing="3.2" fill="#C77B9B">ENGINEERING INTELLIGENCE <tspan fill="#E5B5C7">/</tspan> DESIGNING EXPERIENCES</text>
+      <text class="ss-hero-serif" x="72" y="160" font-size="62" font-weight="400" letter-spacing="-2.4" fill="#F8F0F3">Sri Sushmita</text>
+      <text class="ss-hero-serif" x="72" y="222" font-size="62" font-style="italic" font-weight="400" letter-spacing="-2.4" fill="#E5B5C7">Dasari.</text>
+      <text class="ss-hero-sans" x="78" y="267" font-size="15" font-weight="600" letter-spacing="1.25" fill="#F8F0F3">AI/ML ENGINEER <tspan fill="#C77B9B">·</tspan> FULL-STACK DEVELOPER</text>
+      <text class="ss-hero-sans" x="78" y="291" font-size="15" font-weight="600" letter-spacing="1.25" fill="#F8F0F3">CREATIVE TECHNOLOGIST</text>
+      <text class="ss-hero-mono" x="78" y="342" font-size="11" letter-spacing="2.1" fill="#B6A3AC">AI × SYSTEMS × PRODUCT</text>
+      <path d="M78 310 H638" stroke="#701A3D" stroke-width="3" opacity=".38" filter="url(#ss-hero-glow)"/>
+      <path d="M78 310 H638" stroke="url(#ss-hero-rule)" stroke-width="1.5"/>
+    </g>
+    <!-- A restrained moving sheen glides along the underline; the static rule above remains as fallback. -->
+    <g class="ss-hero-motion" opacity=".72">
+      <path d="M78 310 H638" stroke="url(#ss-hero-sheen)" stroke-width="2.6"/>
+    </g>
+
+    <!-- Static signal line and luminous marker. -->
+    <path d="M72 366 C210 366 262 352 354 352 S505 378 612 354 S760 336 842 346 S1012 370 1128 350" fill="none" stroke="#C77B9B" stroke-opacity=".14" stroke-width="1"/>
+    <circle cx="974" cy="188" r="5" fill="#F8F0F3" fill-opacity=".9" filter="url(#ss-hero-glow)"/>
+    <circle cx="974" cy="188" r="12" fill="none" stroke="#E5B5C7" stroke-opacity=".44"/>
+  </g>
+</svg>
