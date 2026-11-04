@@ -16,7 +16,7 @@
 
 ### About
 
-I’m **Sri Sushmita Dasari**, an AI/ML undergraduate and full-stack developer interested in building intelligent systems that work as complete products — from the underlying logic and APIs to the experience people use.
+I’m **Khizer Ahmad**, an AI/ML undergraduate and full-stack developer interested in building intelligent systems that work as complete products — from the underlying logic and APIs to the experience people use.
 
 I’m pursuing a **B.Tech in Artificial Intelligence and Machine Learning at Aditya Engineering College**, with a **CGPA of 9.10**. Java is my primary language for problem-solving; I use Python for machine-learning work and enjoy exploring the connection between AI, system design and product engineering.
 
